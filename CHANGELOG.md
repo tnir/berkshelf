@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 8.0.8 -->
+## [v8.0.8](https://github.com/chef/berkshelf/tree/v8.0.8) (2023-09-06)
+
+#### Merged Pull Requests
+- refactoring networking issues [#21](https://github.com/chef/berkshelf/pull/21) ([johnmccrae](https://github.com/johnmccrae))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=8.0.7 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- refactoring networking issues [#21](https://github.com/chef/berkshelf/pull/21) ([johnmccrae](https://github.com/johnmccrae)) <!-- 8.0.8 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
