@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.8 -->
-## [v8.0.8](https://github.com/chef/berkshelf/tree/v8.0.8) (2023-09-06)
+<!-- latest_release 8.0.9 -->
+## [v8.0.9](https://github.com/chef/berkshelf/tree/v8.0.9) (2023-09-27)
 
 #### Merged Pull Requests
-- refactoring networking issues [#21](https://github.com/chef/berkshelf/pull/21) ([johnmccrae](https://github.com/johnmccrae))
+- This resolves an issue where &quot;berks install&quot; fails due to a cert is already being in the hash table. [#23](https://github.com/chef/berkshelf/pull/23) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.7 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- This resolves an issue where &quot;berks install&quot; fails due to a cert is already being in the hash table. [#23](https://github.com/chef/berkshelf/pull/23) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.9 -->
 - refactoring networking issues [#21](https://github.com/chef/berkshelf/pull/21) ([johnmccrae](https://github.com/johnmccrae)) <!-- 8.0.8 -->
 <!-- release_rollup -->
 
