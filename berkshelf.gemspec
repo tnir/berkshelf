@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   }
 
   s.add_dependency "mixlib-shellout",      ">= 2.0", "< 4.0"
-  s.add_dependency "cleanroom",            "~> 1.0"
+  s.add_dependency "chef-cleanroom",            "~> 1.0"
   s.add_dependency "minitar",              ">= 0.6"
   s.add_dependency "retryable",            ">= 2.0", "< 4.0"
   s.add_dependency "solve",                "~> 4.0"
@@ -42,10 +42,13 @@ Gem::Specification.new do |s|
   s.add_dependency "octokit",              "~> 4.0"
   s.add_dependency "mixlib-archive",       ">= 1.1.4", "< 2.0" # needed for ruby 3.0 / Dir.chdir removal
   s.add_dependency "concurrent-ruby",      "~> 1.0"
+
+  s.add_dependency "ffi",                "~> 1.9", "< 1.16.0" #
+
   if RUBY_VERSION.match?(/3.0/)
     s.add_dependency "chef",                 "~> 17.0" # needed for --skip-syntax-check
-  elsif 
-    s.add_dependency "chef",                 ">= 15.7.32" 
+  elsif
+    s.add_dependency "chef",                 ">= 15.7.32"
   end
   s.add_dependency "chef-config"
   # this is required for Mixlib::Config#from_json
