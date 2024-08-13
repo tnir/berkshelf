@@ -4,7 +4,7 @@ end
 
 Then("the archive {string} should contain:") do |path, expected_contents|
   actual_contents = Zlib::GzipReader.open(expand_path(path)) do |gz|
-    Archive::Tar::Minitar::Input.each_entry(gz).map(&:full_name).join("\n")
+    Minitar::Input.each_entry(gz).map(&:full_name).join("\n")
   end
   expect(actual_contents).to eql(expected_contents)
 end
