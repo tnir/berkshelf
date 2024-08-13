@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.11 -->
-## [v8.0.11](https://github.com/chef/berkshelf/tree/v8.0.11) (2024-08-12)
+<!-- latest_release 8.0.12 -->
+## [v8.0.12](https://github.com/chef/berkshelf/tree/v8.0.12) (2024-08-13)
 
 #### Merged Pull Requests
-- Constrain minitar gem version and fix require [#30](https://github.com/chef/berkshelf/pull/30) ([tpowell-progress](https://github.com/tpowell-progress))
+- Minitar fix [#31](https://github.com/chef/berkshelf/pull/31) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.9 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Minitar fix [#31](https://github.com/chef/berkshelf/pull/31) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.12 -->
 - Constrain minitar gem version and fix require [#30](https://github.com/chef/berkshelf/pull/30) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.11 -->
 - move to chef maintained cleanroom [#29](https://github.com/chef/berkshelf/pull/29) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.10 -->
 <!-- release_rollup -->
