@@ -39,10 +39,17 @@ Gem::Specification.new do |s|
 
   s.add_dependency "chef-cleanroom",            "~> 1.0"
 
-  if ruby_version >= "3.1"
+  if ruby_version >= Gem::Version.new("3.1.0")
     s.add_dependency "minitar",              "~> 1.0"
+    s.add_dependency "chef",                 ">= 18.0.0"
   else
     s.add_dependency "minitar",              "~> 0.12"
+
+    if ruby_version >= Gem::Version.new("3.0.0")
+      s.add_dependency "chef",                 "~> 17.0" # needed for --skip-syntax-check
+    else
+      s.add_dependency "chef",                 ">= 15.7.32"
+    end
   end
 
   s.add_dependency "retryable",            ">= 2.0", "< 4.0"
@@ -54,11 +61,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency "ffi",                "~> 1.9", "< 1.16.0" #
 
-  if RUBY_VERSION.match?(/3.0/)
-    s.add_dependency "chef",                 "~> 17.0" # needed for --skip-syntax-check
-  elsif
-    s.add_dependency "chef",                 ">= 15.7.32"
-  end
   s.add_dependency "chef-config"
   # this is required for Mixlib::Config#from_json
   s.add_dependency "mixlib-config", ">= 2.2.5"
