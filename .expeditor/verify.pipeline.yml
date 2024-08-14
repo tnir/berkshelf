@@ -10,14 +10,14 @@ expeditor:
       timeout_in_minutes: 30
 
 steps:
-- label: "Integration Ubuntu 22.04 :ruby: 3.0"
+- label: "Integration Ubuntu 18.04 :ruby: 3.0"
   commands:
     - bundle install --jobs=3 --retry=3
     - bundle exec rake
   expeditor:
     executor:
       docker:
-        image: rubydistros/ubuntu-22.04:3.0
+        image: rubydistros/ubuntu-18.04:3.0
         privileged: true
 
 - label: "Integration Ubuntu 22.04 :ruby: 3.1"
