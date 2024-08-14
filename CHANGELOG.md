@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 8.0.13 -->
+## [v8.0.13](https://github.com/chef/berkshelf/tree/v8.0.13) (2024-08-14)
+
+#### Merged Pull Requests
+- Fix version string comparison for Minitar and uncomment install feature [#32](https://github.com/chef/berkshelf/pull/32) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=8.0.12 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Fix version string comparison for Minitar and uncomment install feature [#32](https://github.com/chef/berkshelf/pull/32) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.13 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
