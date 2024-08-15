@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.14 -->
-## [v8.0.14](https://github.com/chef/berkshelf/tree/v8.0.14) (2024-08-15)
+<!-- latest_release 8.0.15 -->
+## [v8.0.15](https://github.com/chef/berkshelf/tree/v8.0.15) (2024-08-15)
 
 #### Merged Pull Requests
-- Add running of tests on verify pipeline [#33](https://github.com/chef/berkshelf/pull/33) ([tpowell-progress](https://github.com/tpowell-progress))
+- PR #11 rebase Allow users to user octokit 5.x [#35](https://github.com/chef/berkshelf/pull/35) ([tpowell-progress](https://github.com/tpowell-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.12 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- PR #11 rebase Allow users to user octokit 5.x [#35](https://github.com/chef/berkshelf/pull/35) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.15 -->
 - Add running of tests on verify pipeline [#33](https://github.com/chef/berkshelf/pull/33) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.14 -->
 - Fix version string comparison for Minitar and uncomment install feature [#32](https://github.com/chef/berkshelf/pull/32) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.13 -->
 <!-- release_rollup -->
