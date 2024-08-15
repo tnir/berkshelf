@@ -25,6 +25,7 @@ steps:
 - label: "Integration Ubuntu 22.04 :ruby: 3.1"
   commands:
     - cd /workdir
+    - rm -f .bundle/config
     - apt-get update -y
     - apt-get install -y graphviz
     - bundle config set --local path 'vendor/bundle'
