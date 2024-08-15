@@ -53,3 +53,5 @@ pipelines:
   - verify:
       description: Pull Request validation tests
       public: true
+      env:
+        - IGNORE_CACHE: true
