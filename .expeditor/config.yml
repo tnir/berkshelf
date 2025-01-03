@@ -22,6 +22,8 @@ github:
     - "Expeditor: Bump Version Major"
 
 release_branches:
+  - workstation-LTS:
+      version_constraint: 8*
   - main:
       version_constraint: 8*
 
