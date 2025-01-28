@@ -1,14 +1,24 @@
 <!-- latest_release 8.0.16 -->
-## [v8.0.16](https://github.com/chef/berkshelf/tree/v8.0.16) (2025-01-03)
+## [v8.0.16](https://github.com/chef/berkshelf/tree/v8.0.16) (2025-01-23)
 
 #### Merged Pull Requests
-- Added the release branch [#42](https://github.com/chef/berkshelf/pull/42) ([nikhil2611](https://github.com/nikhil2611))
+- Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.12 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
+- empty commit [#52](https://github.com/chef/berkshelf/pull/52) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.12 -->
+- Updating config to fix promote to dev channel [#51](https://github.com/chef/berkshelf/pull/51) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.11 -->
+- Removed hab test pipeline duplicate [#50](https://github.com/chef/berkshelf/pull/50) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.10 -->
+- Test pipeline working with empty PR [#49](https://github.com/chef/berkshelf/pull/49) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.9 -->
+- Testing pipelines and added agents promote workload [#48](https://github.com/chef/berkshelf/pull/48) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.8 -->
+- Test pipeline with empty commit [#47](https://github.com/chef/berkshelf/pull/47) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.7 -->
+- Adding back the pipeline back [#46](https://github.com/chef/berkshelf/pull/46) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.5 -->
+- commenting the pipelines [#45](https://github.com/chef/berkshelf/pull/45) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.3 -->
+- Adding back the pipelines [#44](https://github.com/chef/berkshelf/pull/44) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.1 -->
 - Added the release branch [#42](https://github.com/chef/berkshelf/pull/42) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
 - PR #11 rebase Allow users to user octokit 5.x [#35](https://github.com/chef/berkshelf/pull/35) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.15 -->
 - Add running of tests on verify pipeline [#33](https://github.com/chef/berkshelf/pull/33) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.14 -->
