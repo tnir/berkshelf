@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.16 -->
-## [v8.0.16](https://github.com/chef/berkshelf/tree/v8.0.16) (2025-01-23)
+<!-- latest_release 8.0.17 -->
+## [v8.0.17](https://github.com/chef/berkshelf/tree/v8.0.17) (2025-02-03)
 
 #### Merged Pull Requests
-- Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611))
+- Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.12 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.17 -->
 - Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
 - empty commit [#52](https://github.com/chef/berkshelf/pull/52) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.12 -->
 - Updating config to fix promote to dev channel [#51](https://github.com/chef/berkshelf/pull/51) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.11 -->
