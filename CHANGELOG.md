@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.17 -->
-## [v8.0.17](https://github.com/chef/berkshelf/tree/v8.0.17) (2025-02-03)
+<!-- latest_release 8.0.18 -->
+## [v8.0.18](https://github.com/chef/berkshelf/tree/v8.0.18) (2025-04-15)
 
 #### Merged Pull Requests
-- Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611))
+- make pipelines public: habitat/test [#57](https://github.com/chef/berkshelf/pull/57) ([jaymzh](https://github.com/jaymzh))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.12 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- make pipelines public: habitat/test [#57](https://github.com/chef/berkshelf/pull/57) ([jaymzh](https://github.com/jaymzh)) <!-- 8.0.18 -->
 - Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.17 -->
 - Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
 - empty commit [#52](https://github.com/chef/berkshelf/pull/52) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.12 -->
