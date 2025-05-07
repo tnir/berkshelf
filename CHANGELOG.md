@@ -1,14 +1,15 @@
-<!-- latest_release 8.0.19 -->
-## [v8.0.19](https://github.com/chef/berkshelf/tree/v8.0.19) (2025-05-07)
+<!-- latest_release 8.0.20 -->
+## [v8.0.20](https://github.com/chef/berkshelf/tree/v8.0.20) (2025-05-07)
 
 #### Merged Pull Requests
-- Fixing the security scanning warnings [#59](https://github.com/chef/berkshelf/pull/59) ([nikhil2611](https://github.com/nikhil2611))
+- Fixing Workflow does not contain permissions warnings [#60](https://github.com/chef/berkshelf/pull/60) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.12 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Fixing Workflow does not contain permissions warnings [#60](https://github.com/chef/berkshelf/pull/60) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.20 -->
 - Fixing the security scanning warnings [#59](https://github.com/chef/berkshelf/pull/59) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.19 -->
 - make pipelines public: habitat/test [#57](https://github.com/chef/berkshelf/pull/57) ([jaymzh](https://github.com/jaymzh)) <!-- 8.0.18 -->
 - Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.17 -->
