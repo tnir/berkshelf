@@ -1,43 +1,40 @@
-<!-- latest_release 8.0.21 -->
-## [v8.0.21](https://github.com/chef/berkshelf/tree/v8.0.21) (2025-05-14)
-
-#### Merged Pull Requests
-- Commenting out Habitat package promotion to publish Berkshelf first [#61](https://github.com/chef/berkshelf/pull/61) ([nikhil2611](https://github.com/nikhil2611))
+<!-- latest_release -->
 <!-- latest_release -->
 
-<!-- release_rollup since=8.0.12 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Commenting out Habitat package promotion to publish Berkshelf first [#61](https://github.com/chef/berkshelf/pull/61) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.21 -->
-- Fixing Workflow does not contain permissions warnings [#60](https://github.com/chef/berkshelf/pull/60) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.20 -->
-- Fixing the security scanning warnings [#59](https://github.com/chef/berkshelf/pull/59) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.19 -->
-- make pipelines public: habitat/test [#57](https://github.com/chef/berkshelf/pull/57) ([jaymzh](https://github.com/jaymzh)) <!-- 8.0.18 -->
-- Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.17 -->
-- Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
-- empty commit [#52](https://github.com/chef/berkshelf/pull/52) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.12 -->
-- Updating config to fix promote to dev channel [#51](https://github.com/chef/berkshelf/pull/51) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.11 -->
-- Removed hab test pipeline duplicate [#50](https://github.com/chef/berkshelf/pull/50) ([sanghinitin](https://github.com/sanghinitin)) <!-- 0.1.10 -->
-- Test pipeline working with empty PR [#49](https://github.com/chef/berkshelf/pull/49) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.9 -->
-- Testing pipelines and added agents promote workload [#48](https://github.com/chef/berkshelf/pull/48) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.8 -->
-- Test pipeline with empty commit [#47](https://github.com/chef/berkshelf/pull/47) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.7 -->
-- Adding back the pipeline back [#46](https://github.com/chef/berkshelf/pull/46) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.5 -->
-- commenting the pipelines [#45](https://github.com/chef/berkshelf/pull/45) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.3 -->
-- Adding back the pipelines [#44](https://github.com/chef/berkshelf/pull/44) ([nikhil2611](https://github.com/nikhil2611)) <!-- 0.1.1 -->
-- Added the release branch [#42](https://github.com/chef/berkshelf/pull/42) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.16 -->
-- PR #11 rebase Allow users to user octokit 5.x [#35](https://github.com/chef/berkshelf/pull/35) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.15 -->
-- Add running of tests on verify pipeline [#33](https://github.com/chef/berkshelf/pull/33) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.14 -->
-- Fix version string comparison for Minitar and uncomment install feature [#32](https://github.com/chef/berkshelf/pull/32) ([tpowell-progress](https://github.com/tpowell-progress)) <!-- 8.0.13 -->
+<!-- release_rollup -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
+## [v8.0.21](https://github.com/chef/berkshelf/tree/v8.0.21) (2025-05-14)
+
+#### Merged Pull Requests
+- Fix version string comparison for Minitar and uncomment install feature [#32](https://github.com/chef/berkshelf/pull/32) ([tpowell-progress](https://github.com/tpowell-progress))
+- Add running of tests on verify pipeline [#33](https://github.com/chef/berkshelf/pull/33) ([tpowell-progress](https://github.com/tpowell-progress))
+- PR #11 rebase Allow users to user octokit 5.x [#35](https://github.com/chef/berkshelf/pull/35) ([tpowell-progress](https://github.com/tpowell-progress))
+- Added the release branch [#42](https://github.com/chef/berkshelf/pull/42) ([nikhil2611](https://github.com/nikhil2611))
+- Adding back the pipelines [#44](https://github.com/chef/berkshelf/pull/44) ([nikhil2611](https://github.com/nikhil2611))
+- commenting the pipelines [#45](https://github.com/chef/berkshelf/pull/45) ([nikhil2611](https://github.com/nikhil2611))
+- Adding back the pipeline back [#46](https://github.com/chef/berkshelf/pull/46) ([nikhil2611](https://github.com/nikhil2611))
+- Test pipeline with empty commit [#47](https://github.com/chef/berkshelf/pull/47) ([nikhil2611](https://github.com/nikhil2611))
+- Testing pipelines and added agents promote workload [#48](https://github.com/chef/berkshelf/pull/48) ([nikhil2611](https://github.com/nikhil2611))
+- Test pipeline working with empty PR [#49](https://github.com/chef/berkshelf/pull/49) ([nikhil2611](https://github.com/nikhil2611))
+- Removed hab test pipeline duplicate [#50](https://github.com/chef/berkshelf/pull/50) ([sanghinitin](https://github.com/sanghinitin))
+- Updating config to fix promote to dev channel [#51](https://github.com/chef/berkshelf/pull/51) ([nikhil2611](https://github.com/nikhil2611))
+- empty commit [#52](https://github.com/chef/berkshelf/pull/52) ([sanghinitin](https://github.com/sanghinitin))
+- Chef-18535 Removed the release branch changes and fixed pipeline [#53](https://github.com/chef/berkshelf/pull/53) ([nikhil2611](https://github.com/nikhil2611))
+- Updating configuration for a symantec version promote and publish [#55](https://github.com/chef/berkshelf/pull/55) ([nikhil2611](https://github.com/nikhil2611))
+- make pipelines public: habitat/test [#57](https://github.com/chef/berkshelf/pull/57) ([jaymzh](https://github.com/jaymzh))
+- Fixing the security scanning warnings [#59](https://github.com/chef/berkshelf/pull/59) ([nikhil2611](https://github.com/nikhil2611))
+- Fixing Workflow does not contain permissions warnings [#60](https://github.com/chef/berkshelf/pull/60) ([nikhil2611](https://github.com/nikhil2611))
+- Commenting out Habitat package promotion to publish Berkshelf first [#61](https://github.com/chef/berkshelf/pull/61) ([nikhil2611](https://github.com/nikhil2611))
+<!-- latest_stable_release -->
+
 ## [v8.0.12](https://github.com/chef/berkshelf/tree/v8.0.12) (2024-08-13)
 
 #### Merged Pull Requests
 - move to chef maintained cleanroom [#29](https://github.com/chef/berkshelf/pull/29) ([tpowell-progress](https://github.com/tpowell-progress))
 - Constrain minitar gem version and fix require [#30](https://github.com/chef/berkshelf/pull/30) ([tpowell-progress](https://github.com/tpowell-progress))
 - Minitar fix [#31](https://github.com/chef/berkshelf/pull/31) ([tpowell-progress](https://github.com/tpowell-progress))
-<!-- latest_stable_release -->
 
 ## [v8.0.9](https://github.com/chef/berkshelf/tree/v8.0.9) (2023-09-28)
 
