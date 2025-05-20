@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 8.0.22 -->
+## [v8.0.22](https://github.com/chef/berkshelf/tree/v8.0.22) (2025-05-20)
+
+#### Merged Pull Requests
+- Updating ffi gem version limit [#62](https://github.com/chef/berkshelf/pull/62) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=8.0.21 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Updating ffi gem version limit [#62](https://github.com/chef/berkshelf/pull/62) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.22 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
