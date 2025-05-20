@@ -1,18 +1,16 @@
-<!-- latest_release 8.0.22 -->
+<!-- latest_release -->
+<!-- latest_release -->
+
+<!-- release_rollup -->
+<!-- release_rollup -->
+
+<!-- latest_stable_release -->
 ## [v8.0.22](https://github.com/chef/berkshelf/tree/v8.0.22) (2025-05-20)
 
 #### Merged Pull Requests
 - Updating ffi gem version limit [#62](https://github.com/chef/berkshelf/pull/62) ([nikhil2611](https://github.com/nikhil2611))
-<!-- latest_release -->
-
-<!-- release_rollup since=8.0.21 -->
-### Changes not yet released to rubygems.org
-
-#### Merged Pull Requests
-- Updating ffi gem version limit [#62](https://github.com/chef/berkshelf/pull/62) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.0.22 -->
-<!-- release_rollup -->
-
 <!-- latest_stable_release -->
+
 ## [v8.0.21](https://github.com/chef/berkshelf/tree/v8.0.21) (2025-05-14)
 
 #### Merged Pull Requests
@@ -35,7 +33,6 @@
 - Fixing the security scanning warnings [#59](https://github.com/chef/berkshelf/pull/59) ([nikhil2611](https://github.com/nikhil2611))
 - Fixing Workflow does not contain permissions warnings [#60](https://github.com/chef/berkshelf/pull/60) ([nikhil2611](https://github.com/nikhil2611))
 - Commenting out Habitat package promotion to publish Berkshelf first [#61](https://github.com/chef/berkshelf/pull/61) ([nikhil2611](https://github.com/nikhil2611))
-<!-- latest_stable_release -->
 
 ## [v8.0.12](https://github.com/chef/berkshelf/tree/v8.0.12) (2024-08-13)
 
