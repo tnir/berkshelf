@@ -23,11 +23,11 @@ Feature: Evaluating a Berksfile
       add_location(:foo)
       """
     When I run `berks install`
-    Then the output should contain:
+    Then the output should match:
       """
       An error occurred while reading the Berksfile:
 
-        undefined method `add_location' for
+      \s+undefined method ['`]add_location['`] for #<.*>
       """
     And the exit status should be "BerksfileReadError"
 
@@ -37,10 +37,10 @@ Feature: Evaluating a Berksfile
       ptus "This is a ruby syntax error"
       """
     When I run `berks install`
-    Then the output should contain:
+    Then the output should match:
       """
       An error occurred while reading the Berksfile:
 
-        undefined method `ptus' for
+      \s+undefined method ['`]ptus['`] for #<.*>
       """
     And the exit status should be "BerksfileReadError"

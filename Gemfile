@@ -3,14 +3,16 @@ source "https://rubygems.org"
 gemspec
 
 group :build do
-  gem "rake",          ">= 10.1"
+  gem "rake", ">= 10.1"
 end
 
+gem "syslog"
+
 group :development do
-  gem "aruba",         "~> 0.10" # Stay below 1 until aruba/in_process monkeypatching stops
   gem "debug"
-  gem "cucumber",      "< 4.0" # until we identify what is generating the ~@no_run tag in CI
-  gem "cucumber-expressions", "= 5.0.13"
+  gem "aruba",         "~> 2.3"
+  gem "cucumber",      ">= 9.2", "< 10"
+  gem "cucumber-cucumber-expressions", "~> 17.1"
   gem "chef-zero",     ">= 4.0"
   gem "dep_selector",  ">= 1.0"
   gem "fuubar",        ">= 2.0"
@@ -22,7 +24,6 @@ group :development do
 end
 
 gem "appbundler"
-
 
 instance_eval(ENV["GEMFILE_MOD"]) if ENV["GEMFILE_MOD"]
 

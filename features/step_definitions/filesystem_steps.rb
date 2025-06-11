@@ -238,9 +238,9 @@ Then /^the cookbook "(.*?)" should not have the following files:$/ do |name, fil
 end
 
 Then /^the git cookbook "(.*?)" should not have the following directories:$/ do |name, directories|
-  ! directories.raw.map do |directory_row|
+  !directories.raw.map do |directory_row|
     ::File.join(cookbook_store.storage_path.to_path, name, directory_row[0])
-  end.any? { |a_dir| Dir.exists?(a_dir) }
+  end.any? { |a_dir| Dir.exist?(a_dir) }
 end
 
 Then /^the file "(.*?)" in the cookbook "(.*?)" should contain:$/ do |file_name, cookbook_name, content|
@@ -281,7 +281,7 @@ Then /^the file "(.*?)" in the directory "(.*?)" should not contain:$/ do |file_
 end
 
 Then(/^the directory "(.*?)" should contain version "(.*?)" of the "(.*?)" cookbook$/) do |path, version, name|
-  cookbook_path = File.join(current_dir, path)
+  cookbook_path = expand_path(path)
   cookbook = Berkshelf::CachedCookbook.from_path(cookbook_path)
   expect(cookbook.version).to eq(version)
   expect(cookbook.cookbook_name).to eq(name)

@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.name                      = "berkshelf"
   s.require_paths             = ["lib"]
   s.version                   = Berkshelf::VERSION
-  s.required_ruby_version     = ">= 2.7.0"
+  s.required_ruby_version     = ">= 3.1.0"
   s.required_rubygems_version = ">= 2.0.0"
   s.metadata                  = {
     "bug_tracker_uri" => "https://github.com/chef/berkshelf/issues",
@@ -35,9 +35,9 @@ Gem::Specification.new do |s|
 
   ruby_version = Gem::Version.new(RUBY_VERSION)
 
-  s.add_dependency "mixlib-shellout",      ">= 2.0", "< 4.0"
+  s.add_dependency "mixlib-shellout", ">= 2.0", "< 4.0"
 
-  s.add_dependency "chef-cleanroom",            "~> 1.0"
+  s.add_dependency "chef-cleanroom", "~> 1.0"
 
   if ruby_version >= Gem::Version.new("3.1.0")
     s.add_dependency "minitar",              "~> 1.0"

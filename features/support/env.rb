@@ -1,10 +1,15 @@
+# Ruby 3.4 compatibility patch for File.exists? deprecation
+class File
+  class << self
+    alias_method :exists?, :exist? unless method_defined?(:exists?)
+  end
+end
+
 def windows?
   !!(RUBY_PLATFORM =~ /mswin|mingw|windows/)
 end
 
 require "aruba/cucumber"
-require "aruba/in_process"
-require "aruba/spawn_process"
 require "cucumber/rspec/doubles"
 
 Dir["spec/support/**/*.rb"].each { |f| require File.expand_path(f) }
