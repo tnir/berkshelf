@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 8.1.0 -->
+## [v8.1.0](https://github.com/chef/berkshelf/tree/v8.1.0) (2025-06-11)
+
+#### Merged Pull Requests
+- CHEF-19100 - Adding ruby 3.4 support [#63](https://github.com/chef/berkshelf/pull/63) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=8.0.22 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- CHEF-19100 - Adding ruby 3.4 support [#63](https://github.com/chef/berkshelf/pull/63) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.1.0 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
