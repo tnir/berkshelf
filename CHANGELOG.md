@@ -1,14 +1,15 @@
-<!-- latest_release 8.1.0 -->
-## [v8.1.0](https://github.com/chef/berkshelf/tree/v8.1.0) (2025-06-11)
+<!-- latest_release 8.1.1 -->
+## [v8.1.1](https://github.com/chef/berkshelf/tree/v8.1.1) (2025-07-02)
 
 #### Merged Pull Requests
-- CHEF-19100 - Adding ruby 3.4 support [#63](https://github.com/chef/berkshelf/pull/63) ([nikhil2611](https://github.com/nikhil2611))
+- Support private hab bldr of publishing hab pkg and update ruby core pkg for berkshelf [#64](https://github.com/chef/berkshelf/pull/64) ([sanjain-progress](https://github.com/sanjain-progress))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.22 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Support private hab bldr of publishing hab pkg and update ruby core pkg for berkshelf [#64](https://github.com/chef/berkshelf/pull/64) ([sanjain-progress](https://github.com/sanjain-progress)) <!-- 8.1.1 -->
 - CHEF-19100 - Adding ruby 3.4 support [#63](https://github.com/chef/berkshelf/pull/63) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.1.0 -->
 <!-- release_rollup -->
 
