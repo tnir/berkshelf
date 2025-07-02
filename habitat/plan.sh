@@ -1,8 +1,8 @@
-export HAB_BLDR_CHANNEL="LTS-2024"
-export HAB_REFRESH_CHANNEL="LTS-2024"
+export HAB_BLDR_CHANNEL="base-2025"
+export HAB_REFRESH_CHANNEL="base-2025"
 pkg_name="berkshelf"
 pkg_origin="chef"
-ruby_pkg="core/ruby3_1"
+ruby_pkg="core/ruby3_4"
 pkg_maintainer="The Chef Maintainers <humans@chef.io>"
 pkg_description="Manage Chef Infra cookbooks and cookbook dependencies."
 pkg_license=('Apache-2.0')

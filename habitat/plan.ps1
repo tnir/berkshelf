@@ -67,7 +67,7 @@ function Invoke-Install {
         Push-Location $pkg_prefix
         bundle config --local gemfile $project_root/Gemfile
          Write-BuildLine "** generating binstubs for berkshelf with precise version pins"
-	 Write-BuildLine "** generating binstubs for berkshelf with precise version pins $project_root $pkg_prefix/bin " 
+	 Write-BuildLine "** generating binstubs for berkshelf with precise version pins $project_root $pkg_prefix/bin "
             Invoke-Expression -Command "appbundler.bat $project_root $pkg_prefix/bin berkshelf"
             If ($lastexitcode -ne 0) { Exit $lastexitcode }
 	Write-BuildLine " ** Running the berkshelf project's 'rake install' to install the path-based gems so they look like any other installed gem."
