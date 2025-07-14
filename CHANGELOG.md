@@ -1,14 +1,15 @@
-<!-- latest_release 8.1.1 -->
-## [v8.1.1](https://github.com/chef/berkshelf/tree/v8.1.1) (2025-07-02)
+<!-- latest_release 8.1.2 -->
+## [v8.1.2](https://github.com/chef/berkshelf/tree/v8.1.2) (2025-07-14)
 
 #### Merged Pull Requests
-- Support private hab bldr of publishing hab pkg and update ruby core pkg for berkshelf [#64](https://github.com/chef/berkshelf/pull/64) ([sanjain-progress](https://github.com/sanjain-progress))
+- Fixing habitat test builds by declaring HAB_ORIGIN after habitat install [#65](https://github.com/chef/berkshelf/pull/65) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
 <!-- release_rollup since=8.0.22 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Fixing habitat test builds by declaring HAB_ORIGIN after habitat install [#65](https://github.com/chef/berkshelf/pull/65) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.1.2 -->
 - Support private hab bldr of publishing hab pkg and update ruby core pkg for berkshelf [#64](https://github.com/chef/berkshelf/pull/64) ([sanjain-progress](https://github.com/sanjain-progress)) <!-- 8.1.1 -->
 - CHEF-19100 - Adding ruby 3.4 support [#63](https://github.com/chef/berkshelf/pull/63) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.1.0 -->
 <!-- release_rollup -->
