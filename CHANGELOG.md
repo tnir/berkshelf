@@ -1,7 +1,15 @@
-<!-- latest_release -->
+<!-- latest_release 8.1.5 -->
+## [v8.1.5](https://github.com/chef/berkshelf/tree/v8.1.5) (2025-09-10)
+
+#### Merged Pull Requests
+- Move syslog dependency from Gemfile to gemspec [#68](https://github.com/chef/berkshelf/pull/68) ([nikhil2611](https://github.com/nikhil2611))
 <!-- latest_release -->
 
-<!-- release_rollup -->
+<!-- release_rollup since=8.1.4 -->
+### Changes not yet released to rubygems.org
+
+#### Merged Pull Requests
+- Move syslog dependency from Gemfile to gemspec [#68](https://github.com/chef/berkshelf/pull/68) ([nikhil2611](https://github.com/nikhil2611)) <!-- 8.1.5 -->
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
